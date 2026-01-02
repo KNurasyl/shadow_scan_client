@@ -1,0 +1,562 @@
+<svg>
+
+  <symbol id="exclamation-octagon" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0z" />
+    <path d="M12 8v4" />
+    <path d="M12 16h.01" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="thunder" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
+  </symbol>
+
+  <symbol id="isolation" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24" stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M3 10m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+    <path d="M17 10m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+    <path d="M10 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+    <path d="M10 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+    <path d="M19 10a5 5 0 0 0 -5 -5" />
+    <path d="M19 14a5 5 0 0 1 -5 5" />
+    <path d="M5 14a5 5 0 0 0 5 5" />
+    <path d="M5 10a5 5 0 0 1 5 -5" />
+  </symbol>
+
+  <symbol id="computer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" />
+    <path d="M7 20h10" />
+    <path d="M9 16v4" />
+    <path d="M15 16v4" />
+  </symbol>
+
+  <symbol id="book" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" />
+    <path d="M19 16h-12a2 2 0 0 0 -2 2" />
+  </symbol>
+
+  <symbol id="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit"
+    fill="none"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
+    <path d="M9 4v13" />
+    <path d="M15 7v13" />
+  </symbol>
+
+  <symbol id="logout" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+    <path d="M9 12h12l-3 -3" />
+    <path d="M18 15l3 -3" />
+  </symbol>
+
+  <symbol id="chevrons-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit"
+    fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M11 7l-5 5l5 5" />
+    <path d="M17 7l-5 5l5 5" />
+  </symbol>
+
+  <symbol id="user-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+  </symbol>
+
+  <symbol id="bell" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+    <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+  </symbol>
+
+  <symbol id="bell-off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M9.346 5.353c.21 -.129 .428 -.246 .654 -.353a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3m-1 3h-13a4 4 0 0 0 2 -3v-3a6.996 6.996 0 0 1 1.273 -3.707" />
+    <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+    <path d="M3 3l18 18" />
+  </symbol>
+
+  <symbol id="filtersoff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M6 6v2" />
+    <path d="M6 12v8" />
+    <path d="M10 16a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M12 4v4m0 4v2" />
+    <path d="M12 18v2" />
+    <path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M18 4v1" />
+    <path d="M18 9v5m0 4v2" />
+    <path d="M3 3l18 18" />
+  </symbol>
+
+  <symbol id="journal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+    <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+    <path d="M3 6l0 13" />
+    <path d="M12 6l0 13" />
+    <path d="M21 6l0 13" />
+  </symbol>
+
+  <symbol id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 5l0 14" />
+    <path d="M5 12l14 0" />
+  </symbol>
+
+  <symbol id="pdf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
+    <path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" />
+    <path d="M17 18h2" />
+    <path d="M20 15h-3v6" />
+    <path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
+  </symbol>
+
+  <symbol id="sign-document" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M21 15.2426V21.0082C21 21.556 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5511 3 20.9925V9H9C9.55228 9 10 8.55228 10 8V2H20.0017C20.5531 2 21 2.45531 21 2.9918V6.75736L12.0012 15.7562L11.995 19.995L16.2414 20.0012L21 15.2426ZM21.7782 8.80761L23.1924 10.2218L15.4142 18L13.9979 17.9979L14 16.5858L21.7782 8.80761ZM3 7L8 2.00318V7H3Z"
+      fill="inherit" />
+  </symbol>
+
+  <symbol id="circle-check-filled" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+      stroke-width="0" fill="currentColor" />
+  </symbol>
+
+  <symbol id="grip-vertical" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M9 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M9 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M9 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M15 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M15 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M15 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  </symbol>
+
+  <symbol id="trash" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M4 7l16 0" />
+    <path d="M10 11l0 6" />
+    <path d="M14 11l0 6" />
+    <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+    <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="sun" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    <path
+      d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="moon" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="file" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="login" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M15 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+    <path d="M21 12h-13l3 -3" />
+    <path d="M11 15l-3 -3" />
+  </symbol>
+
+  <symbol id="double-bolt" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+    stroke="inherit">
+    <g clip-path="url(#clip0_502_2930)">
+      <path d="M9 1V8H15L7 19V12H1L9 1Z" stroke-width="1.5" stroke-linecap="round"
+        stroke-linejoin="round" />
+      <path d="M11 13.5V19L19 8H13V1L11 3.75L9 6.5" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <defs>
+      <clipPath id="clip0_502_2930">
+        <rect width="20" height="20" fill="white" />
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="copy" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+    <path
+      d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="folder-open" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M5 19l2.757 -7.351a1 1 0 0 1 .936 -.649h12.307a1 1 0 0 1 .986 1.164l-.996 5.211a2 2 0 0 1 -1.964 1.625h-14.026a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="player-pause" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M6 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+    <path d="M14 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="player-play" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M7 4v16l13 -8z" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="dots" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="file-check" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+    <path d="M9 15l2 2l4 -4" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="menu" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M4 6l16 0" />
+    <path d="M4 12l16 0" />
+    <path d="M4 18l16 0" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="edit" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" />
+    <path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z" />
+    <path d="M16 5l3 3" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="eye-off" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10.585 10.587a2 2 0 0 0 2.829 2.828" />
+    <path
+      d="M16.681 16.673a8.717 8.717 0 0 1 -4.681 1.327c-3.6 0 -6.6 -2 -9 -6c1.272 -2.12 2.712 -3.678 4.32 -4.674m2.86 -1.146a9.055 9.055 0 0 1 1.82 -.18c3.6 0 6.6 2 9 6c-.666 1.11 -1.379 2.067 -2.138 2.87" />
+    <path d="M3 3l18 18" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="eye" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="square-check" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+    <path d="M9 12l2 2l4 -4" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="square-x" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
+    <path d="M9 9l6 6m0 -6l-6 6" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="map-pin-off" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M9.442 9.432a3 3 0 0 0 4.113 4.134m1.445 -2.566a3 3 0 0 0 -3 -3" />
+    <path
+      d="M17.152 17.162l-3.738 3.738a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 0 1 -.476 -10.794m2.18 -1.82a8.003 8.003 0 0 1 10.91 10.912" />
+    <path d="M3 3l18 18" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="map-pin" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="social-off" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M17.57 17.602a2 2 0 0 0 2.83 2.827" />
+    <path d="M11.113 11.133a3 3 0 1 0 3.765 3.715" />
+    <path d="M12 7v1" />
+    <path d="M6.7 17.8l2.8 -2" />
+    <path d="M17.3 17.8l-2.8 -2" />
+    <path d="M3 3l18 18" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="social" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M12 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M12 7l0 4" />
+    <path d="M6.7 17.8l2.8 -2" />
+    <path d="M17.3 17.8l-2.8 -2" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="download" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+    <path d="M7 11l5 5l5 -5" />
+    <path d="M12 4l0 12" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="input-search" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M20 11v-2a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h5" />
+    <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M20.2 20.2l1.8 1.8" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="refresh" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+    <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="password" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z" />
+    <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+    <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="envelope" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+    <path d="M3 7l9 6l9 -6" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="circle-x" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-6.489 5.8a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z"
+      stroke-width="0" fill="currentColor" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="info-circle" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+      d="M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -19.995 .324l-.005 -.324l.004 -.28c.148 -5.393 4.566 -9.72 9.996 -9.72zm0 9h-1l-.117 .007a1 1 0 0 0 0 1.986l.117 .007v3l.007 .117a1 1 0 0 0 .876 .876l.117 .007h1l.117 -.007a1 1 0 0 0 .876 -.876l.007 -.117l-.007 -.117a1 1 0 0 0 -.764 -.857l-.112 -.02l-.117 -.006v-3l-.007 -.117a1 1 0 0 0 -.876 -.876l-.117 -.007zm.01 -3l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z"
+      stroke-width="0" fill="currentColor" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="pencil" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+    <path d="M13.5 6.5l4 4" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="certificate" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+    <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+    <path d="M6 9l12 0" />
+    <path d="M6 12l3 0" />
+    <path d="M6 15l2 0" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="history" viewBox="0 0 24 24" stroke-width="1.5"
+    stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 8l0 4l2 2" />
+    <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="docx" viewBox="0 0 24 24" fill="none"
+    stroke="inherit"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+    <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4"></path>
+    <path d="M2 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z"></path>
+    <path d="M17 16.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0"></path>
+    <path d="M9.5 15a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1 -3 0v-3a1.5 1.5 0 0 1 1.5 -1.5z"></path>
+    <path d="M19.5 15l3 6"></path>
+    <path d="M19.5 21l3 -6"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="xlsx" viewBox="0 0 24 24" fill="none"
+    stroke="inherit"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+    <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4"></path>
+    <path d="M4 15l4 6"></path>
+    <path d="M4 21l4 -6"></path>
+    <path
+      d="M17 20.25c0 .414 .336 .75 .75 .75h1.25a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-1a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1.25a.75 .75 0 0 1 .75 .75"></path>
+    <path d="M11 15v6h3"></path>
+  </symbol>
+
+  <symbol
+    xmlns="http://www.w3.org/2000/svg"
+    id="search"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="inherit"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+  </symbol>
+
+  <symbol id="chevrons-up-down" viewBox="0 0 20 20" fill="none" stroke="inherit"
+    xmlns="http://www.w3.org/2000/svg">
+    <g>
+      <path d="M6.6665 8.0013L9.99984 4.66797L13.3332 8.0013" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13.3332 13L9.99984 16.3333L6.6665 13" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="twitch" viewBox="0 0 24 24" fill="none"
+    stroke="inherit"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <path
+      d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z"></path>
+    <path d="M16 8l0 4"></path>
+    <path d="M12 8l0 4"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="cat" viewBox="0 0 24 24" fill="none"
+    stroke="inherit"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <path
+      d="M20 3v10a8 8 0 1 1 -16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568 -1.432c1.769 0 3.403 .574 4.728 1.546l3.272 -3.546z"></path>
+    <path d="M2 16h5l-4 4"></path>
+    <path d="M22 16h-5l4 4"></path>
+    <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+    <path d="M9 11v.01"></path>
+    <path d="M15 11v.01"></path>
+  </symbol>
+
+  <symbol
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    id="steps"
+    fill="none"
+    stroke="inherit"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M2 12h2" />
+    <path d="M20 12h2" />
+    <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M18 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+    <path d="M8 12h8" />
+  </symbol>
+  <symbol
+    xmlns="http://www.w3.org/2000/svg"
+    id="corner-up-left"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="inherit"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M18 18v-6a3 3 0 0 0 -3 -3h-10l4 -4m0 8l-4 -4" />
+  </symbol>
+  <symbol
+    xmlns="http://www.w3.org/2000/svg"
+    id="arrow-back"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="inherit"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="qr" viewBox="0 0 24 24" fill="none"
+    stroke="inherit"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+    <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"></path>
+    <path d="M7 17l0 .01"></path>
+    <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"></path>
+    <path d="M7 7l0 .01"></path>
+    <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"></path>
+    <path d="M17 7l0 .01"></path>
+    <path d="M14 14l3 0"></path>
+    <path d="M20 14l0 .01"></path>
+    <path d="M14 14l0 3"></path>
+    <path d="M14 20l3 0"></path>
+    <path d="M17 17l3 0"></path>
+    <path d="M20 17l0 3"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" id="helpdesk" viewBox="0 0 24 24"
+    stroke-width="1.5" stroke="inherit" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <path d="M4 12a8 8 0 0 1 16 0" />
+    <path d="M4 12v3a2 2 0 0 0 2 2h1" />
+    <path d="M20 12v3a2 2 0 0 1 -2 2h-1" />
+    <path d="M12 18h4a2 2 0 0 0 2 -2v-1" />
+    <path d="M12 18v.01" />
+  </symbol>
+</svg>

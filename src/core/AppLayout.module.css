@@ -1,0 +1,261 @@
+.appLayout {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #020617; /* тёмный фон, подгони под проект */
+	color: #e5e7eb;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		sans-serif;
+}
+
+/* HEADER */
+
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	backdrop-filter: blur(16px);
+	background: linear-gradient(
+		to bottom,
+		rgba(15, 23, 42, 0.95),
+		rgba(15, 23, 42, 0.75),
+		transparent
+	);
+}
+
+.headerInner {
+	max-width: 1500px;
+	margin: 0 auto;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	padding: 0 20px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.logoMark {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	border-radius: 999px;
+	background: linear-gradient(135deg, #6366f1, #a855f7);
+	font-size: 14px;
+	font-weight: 700;
+	color: #f9fafb;
+}
+
+.logoText {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #9ca3af;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	flex: 1;
+}
+
+.navLink {
+	position: relative;
+	font-size: 16px;
+	color: #9ca3af;
+	padding: 4px 0;
+	cursor: pointer;
+}
+
+.navLink::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	border-radius: 999px;
+	background: linear-gradient(135deg, #6366f1, #a855f7);
+	transition: width 0.15s ease-out;
+}
+
+.navLink:hover {
+	color: #e5e7eb;
+}
+
+.navLink:hover::after {
+	width: 100%;
+}
+
+.headerRight {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 13px;
+	color: #9ca3af;
+}
+
+.headerUser {
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: rgba(15, 23, 42, 0.8);
+	border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.navActions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.navGhost,
+.navPrimary {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 999px;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 7px 14px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	background: transparent;
+	color: #e5e7eb;
+	transition: background 0.16s ease-out, border-color 0.16s ease-out,
+		transform 0.12s ease-out, box-shadow 0.12s ease-out;
+}
+
+.navGhost {
+	border-color: rgba(148, 163, 184, 0.45);
+}
+
+.navGhost:hover {
+	border-color: #38bdf8;
+	background: rgba(15, 23, 42, 0.9);
+}
+
+.navPrimary {
+	background: linear-gradient(135deg, #22c55e, #38bdf8);
+	color: #020617;
+	box-shadow: 0 14px 35px rgba(34, 197, 94, 0.45);
+}
+
+.navPrimary:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 18px 45px rgba(34, 197, 94, 0.6);
+}
+
+/* LAYOUT CONTENT */
+
+.appLayoutContent {
+	flex: 1;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.footer {
+	border-top: 1px solid rgba(15, 23, 42, 0.9);
+	background: rgba(15, 23, 42, 0.98);
+}
+
+.footerInner {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 14px 20px 18px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	font-size: 12px;
+	color: #6b7280;
+}
+
+.footerLeft {
+	white-space: nowrap;
+}
+
+.footerRight {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+.footerLink {
+	color: #9ca3af;
+	cursor: pointer;
+}
+
+.footerLink:hover {
+	color: #e5e7eb;
+	text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+	.footerInner {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.logoText {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #9ca3af;
+	transition: color 0.15s ease-out, text-shadow 0.15s ease-out;
+}
+
+.logoTextActive {
+	color: #e5e7eb;
+	text-shadow: 0 0 18px rgba(56, 189, 248, 0.7);
+}
+
+.navLink {
+	position: relative;
+	font-size: 16px;
+	color: #9ca3af;
+	padding: 4px 0;
+	cursor: pointer;
+	transition: color 0.15s ease-out;
+}
+
+.navLink::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	border-radius: 999px;
+	background: linear-gradient(135deg, #22c55e, #38bdf8);
+	transition: width 0.15s ease-out;
+}
+
+/* Ховер остаётся как был */
+.navLink:hover {
+	color: #e5e7eb;
+}
+
+.navLink:hover::after {
+	width: 100%;
+}
+
+/* Активный пункт: цвет + постоянное подчёркивание */
+.navLinkActive {
+	color: #e5e7eb;
+}
+
+.navLinkActive::after {
+	width: 100%;
+}

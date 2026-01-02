@@ -1,0 +1,43 @@
+.errorMessage {
+  background-color: #ffe4d2 !important;
+  border: 1px solid #950D0D !important;
+  border-radius: 8px;
+}
+
+.errorMessage :global(.ant-notification-notice-message) {
+  color: #950D0D !important;
+}
+
+.errorIcon {
+  color: #ff4d4f;
+  width: 26px;
+  height: 26px;
+}
+
+.successMessage {
+  background-color: #E2EFDA !important;
+  border: 1px solid #045428;
+  border-radius: 8px;
+}
+
+.successMessage :global(.ant-notification-notice-message) {
+  color: #045428 !important;
+}
+
+.successIcon {
+  color: #52c41a;
+  width: 26px;
+  height: 26px;
+}
+
+.infoMessage {
+  background-color: #e6f4ff;
+  border: 1px solid #91caff;
+  border-radius: 8px;
+}
+
+.infoIcon {
+  color: #1677ff;
+  width: 26px;
+  height: 26px;
+}
