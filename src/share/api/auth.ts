@@ -1,24 +1,12 @@
-import axios from 'axios';
+import type { AuthPayload, LoginResponse } from '../types/api';
+import { http } from './http';
 
-export interface LoginResponse {
-  accessToken: string;
-  user: {
-    id: string;
-    email: string;
-    role: 'user' | 'admin';
-    name?: string;
-    isActive: boolean;
-  };
-}
-
-export const loginRequest = async (email: string, password: string) => {
-  const { data } = await axios.post<LoginResponse>('/api/auth/login', { email, password });
-
+export const loginRequest = async (payload: AuthPayload): Promise<LoginResponse> => {
+  const { data } = await http.post('/auth/login', payload);
   return data;
 };
 
-export const registerRequest = async (email: string, password: string) => {
-  const { data } = await axios.post('/auth/register', { email, password }).then((r) => r.data);
-
+export const registerRequest = async (payload: AuthPayload): Promise<LoginResponse> => {
+  const { data } = await http.post('/auth/register', payload);
   return data;
 };
