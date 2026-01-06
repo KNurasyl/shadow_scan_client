@@ -1,10 +1,8 @@
-import { useMutation } from '@tanstack/react-query';
 import { useNavigate } from '@tanstack/react-router';
 import { useState } from 'react';
 import { loginRequest, registerRequest } from '../../share/api/auth';
-import { showErrorMessage, showSuccessMessage } from '../../share/functions';
+import { showInfoMessage, showSuccessMessage } from '../../share/functions';
 import { userStore } from '../../share/store/user.store';
-import type { AuthPayload, LoginResponse } from '../../share/types/api';
 import styles from './Auth.module.css';
 
 type AuthMode = 'login' | 'register';
@@ -16,26 +14,26 @@ export const Auth = () => {
   const [mode, setMode] = useState<AuthMode>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const isLogin = mode === 'login';
+  const apiCall = isLogin ? loginRequest : registerRequest;
 
-  const { mutate, isPending } = useMutation<LoginResponse, unknown, AuthPayload>({
-    mutationFn: async (payload) => {
-      return isLogin ? loginRequest(payload) : registerRequest(payload);
-    },
-    onSuccess: ({ user, accessToken }) => {
+  const onSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const { user, accessToken } = await apiCall({ email, password });
       setAuth(user, accessToken);
+
       showSuccessMessage(isLogin ? 'Вы вошли в систему' : 'Аккаунт создан');
       navigate({ to: '/' });
-    },
-    onError: () => {
-      showErrorMessage(isLogin ? 'Неверный email или пароль' : 'Ошибка регистрации');
-    },
-  });
-
-  const onSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    mutate({ email, password });
+    } catch {
+      showInfoMessage(isLogin ? 'Неверный email или пароль' : 'Ошибка регистрации');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -62,13 +60,13 @@ export const Auth = () => {
             required
           />
 
-          <button className={styles.submit} disabled={isPending}>
-            {isPending ? 'Подождите…' : isLogin ? 'Войти' : 'Создать аккаунт'}
+          <button className={styles.submit} disabled={loading}>
+            {loading ? 'Подождите…' : isLogin ? 'Войти' : 'Создать аккаунт'}
           </button>
         </form>
 
         <div className={styles.bottomText}>
-          <span className={styles.bottomSubText}>
+          <span className={styles.bottomText}>
             {isLogin ? 'Нет аккаунта?' : 'Уже есть аккаунт?'}
           </span>
           <button
