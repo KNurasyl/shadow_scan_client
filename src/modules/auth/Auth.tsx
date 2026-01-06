@@ -66,7 +66,7 @@ export const Auth = () => {
         </form>
 
         <div className={styles.bottomText}>
-          <span className={styles.bottomText}>
+          <span className={styles.bottomSubText}>
             {isLogin ? 'Нет аккаунта?' : 'Уже есть аккаунт?'}
           </span>
           <button

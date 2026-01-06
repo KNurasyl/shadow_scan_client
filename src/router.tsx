@@ -26,7 +26,28 @@ const authRoute = createRoute({
   component: lazyRouteComponent(() => import('./modules/auth')),
 });
 
-const routeTree = rootRoute.addChildren([layoutRoute.addChildren([indexRoute]), authRoute]);
+const dashboardRoute = createRoute({
+  getParentRoute: () => layoutRoute,
+  path: '/dashboard',
+  component: lazyRouteComponent(() => import('./modules/dashboard')),
+});
+
+const scansRoute = createRoute({
+  getParentRoute: () => layoutRoute,
+  path: '/scans',
+  component: lazyRouteComponent(() => import('./modules/scans')),
+});
+
+const scanRoute = createRoute({
+  getParentRoute: () => layoutRoute,
+  path: '/scans/$id',
+  component: lazyRouteComponent(() => import('./modules/scan')),
+});
+
+const routeTree = rootRoute.addChildren([
+  layoutRoute.addChildren([indexRoute, dashboardRoute, scansRoute, scanRoute]),
+  authRoute,
+]);
 
 export const router = createRouter({
   routeTree,

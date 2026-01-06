@@ -22,6 +22,11 @@ export const AppLayout = () => {
             <Link to="/" className={styles.navLink}>
               Главная
             </Link>
+            {user && (
+              <Link to="/scans" className={styles.navLink}>
+                OSINT-сканы
+              </Link>
+            )}
           </nav>
 
           <div className={styles.navActions}>
